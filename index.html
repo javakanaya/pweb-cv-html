@@ -15,21 +15,23 @@
         body {
             font-family: 'Roboto', sans-serif;
             background-color: white;
-            margin: 5em 10em;
+            margin: 5em 5em;
         }
+
 
         img {
             border-radius: 50%;
+            width: 10em;
         }
 
         h1 {
             color: #ff6b35;
             font-size: 3em;
-            border: solid;
-
+            margin: 0.25em 0;
         }
 
         h2 {
+            margin: 0 0;
             color: #ff6b35;
             font-size: 2em;
         }
@@ -41,7 +43,7 @@
 
         hr {
             color: #004e89;
-            margin: 0 0;
+            margin: 1.25em 0;
         }
 
         div p {
@@ -49,22 +51,28 @@
         }
 
         p,
-        li {
+        li, span{
             color: #003049;
         }
 
-        img {
-            width: 10em;
+        div h3, p, ul{
+            margin: .5em 0em;
+        }
+
+        .block {
+            display: inline-block;
         }
     </style>
 </head>
 
 <body>
     <section>
-        <img src="myself.png" alt="foto java">
-        <h1>Java Kanaya Prada</h1>
-        <p>Klaten 57471 | <a href="https://www.linkedin.com/in/java-kanaya-prada-201865217">Linkedin</a> |
-            +6282241228419 | javakanaya@gmail.com</p>
+        <center>
+            <img src="myself.png" alt="foto java">
+            <h1>Java Kanaya Prada</h1>
+            <p>Klaten 57471 | <a href="https://www.linkedin.com/in/java-kanaya-prada-201865217">Linkedin</a> |
+                +6282241228419 | javakanaya@gmail.com</p>
+        </center>
     </section>
 
     <hr>
@@ -82,7 +90,9 @@
         <h2>Experiences</h2>
         <div>
             <h3>Schematics 2023</h3>
-            <p>Data Management Expert Staff</p>
+            <div class="block">
+                <p>Data Management Expert Staff <span>(January 2023 - Present)</span></p>
+            </div>
             <ul>
                 <li>Designing a participant registration scheme</li>
                 <li>Recapitulate registration for each Schematics 2023 sub-event</li>
@@ -91,7 +101,7 @@
         </div>
         <div>
             <h3>PMK (Persekutuan Mahasiswa Kristen) ITS</h3>
-            <p>Media and Information - Publication Staff</p>
+            <p>Media and Information - Publication Staff <span>(February 2023 - Present)</span></p>
             <ul>
                 <li>managing PMK ITS social media</li>
                 <li>Manage PMK Sharing</li>
@@ -99,7 +109,7 @@
         </div>
         <div>
             <h3>HMTC (Himpunan Mahasiswa Teknik Computer-Informatika) ITS</h3>
-            <p>Media and Information interns</p>
+            <p>Media and Information interns <span>(November 2022 - December 2022)</span></p>
             <ul>
                 <li>Manage overall HMTC social media</li>
                 <li>Coordinate with other departments to manage posts on HMTC social media</li>
@@ -107,7 +117,7 @@
         </div>
         <div>
             <h3>Schematics 2022</h3>
-            <p>Schematics National Programming Contest Staff</p>
+            <p>Schematics National Programming Contest Staff <span>(September 2022 - November 2022)</span></p>
             <ul>
                 <li>Create ideas, solutions, test cases, and descriptions of competitive programming questions.</li>
                 <li>Doing trials on competitive programming questions.</li>
@@ -122,11 +132,11 @@
         <h2>Education</h2>
         <div>
             <h3>Sepuluh Nopember Institute of Technology</h3>
-            <p><b>Bachelors</b> Informatics Engineering</p>
+            <p><b>Bachelors</b> Informatics Engineering <span>(August 2021 - Present)</span></p>
         </div>
         <div>
             <h3>SMA N 1 Klaten</h3>
-            <p><b>High School</b> MIPA</p>
+            <p><b>High School</b> MIPA <span>(July 2018 - June 2021)</span></p>
         </div>
     </section>
 
